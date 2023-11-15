@@ -3,4 +3,3 @@ djangorestframework==3.12.4
 phonenumbers
 python-dateutil
 requests
-gunicorn==20.1.0
