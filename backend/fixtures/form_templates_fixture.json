@@ -1,0 +1,55 @@
+[
+    {
+        "model": "form_validator.formtemplate",
+        "pk": 1,
+        "fields": {
+            "name": "DateForm",
+            "date": true
+        }
+    },
+    {
+        "model": "form_validator.formtemplate",
+        "pk": 2,
+        "fields": {
+            "name": "PhoneForm",
+            "phone": true
+        }
+    },
+    {
+        "model": "form_validator.formtemplate",
+        "pk": 3,
+        "fields": {
+            "name": "EmailForm",
+            "email": true
+        }
+    },
+    {
+        "model": "form_validator.formtemplate",
+        "pk": 4,
+        "fields": {
+            "name": "TextForm",
+            "text": true
+        }
+    },
+    {
+        "model": "form_validator.formtemplate",
+        "pk": 5,
+        "fields": {
+            "name": "ContactForm",
+            "email": true,
+            "phone": true,
+            "text": true
+        }
+    },
+    {
+        "model": "form_validator.formtemplate",
+        "pk": 6,
+        "fields": {
+            "name": "CustomForm",
+            "email": true,
+            "phone": true,
+            "date": true,
+            "text": true
+        }
+    }
+]
