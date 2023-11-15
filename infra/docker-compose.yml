@@ -1,0 +1,14 @@
+version: '3'
+
+volumes:
+  media:
+  static:
+
+services:
+  backend:
+    build: ../backend
+    volumes:
+      - static:/backend_static/static/
+      - media:/media
+    ports:
+      - "8000:8000"
